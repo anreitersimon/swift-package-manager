@@ -39,6 +39,14 @@ let package = Package(
                 "Workspace"
             ]
         ),
+        
+        .library(
+            name: "Xcodeproj",
+            type: .dynamic,
+            targets: [
+                "Xcodeproj"
+            ]
+        ),
 
         // Collection of general purpose utilities.
         //
